@@ -8,7 +8,9 @@ import List from './List.jsx'
 import Button from './Button.jsx'
 import ProfilePic from './ProfilePic.jsx'
 import Counter from './Counter.jsx'
-import MyComponent from './MyComponent.jsx/index.js'
+import MyComponent from './MyComponent.jsx'
+import OnChange from './OnChange.jsx'
+import ColorPicker from './ColorPicker.jsx'
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
 
   return(
     <>  
+      <ColorPicker />
+      <OnChange />
       <MyComponent />
       <Counter />
       <ProfilePic />
